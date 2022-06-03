@@ -1,0 +1,82 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;;
+    background-image: url(./images/pattern-background-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% auto;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+}
+
+p {font-size: 16px;
+text-align: center;
+padding-left: 5%;
+padding-right: 5%;}
+
+.text {
+    display: block;
+    width: 60vmin;
+    background-color: white;
+    text-align: center;
+}
+
+#plan-box {
+    background-color: hsl(225, 100%, 98%);
+    padding: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    
+}
+
+.music-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.hero {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    max-width: 100%;
+}
+
+.content {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 60vmin;
+}
+h1 {
+   display: flex;
+   justify-content: center;
+   padding-top: 5%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 3.5rem;
+    text-align: center;
+}
+
+#buttons {
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap')
+section
+
