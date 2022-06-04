@@ -1,91 +1,117 @@
 body {
-    font-family: 'Red Hat Display', sans-serif;;
-    background-image: url(./images/pattern-background-desktop.svg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10% auto;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-color: hsl(225, 100%, 98%);
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
 }
 
-p {font-size: 16px;
-text-align: center;
-padding-left: 5%;
-padding-right: 5%;}
-
- .card .text {
-    display: block;
-    background-color: white;
-    text-align: center;
-    max-width: 400px;
+p {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-    .text h2 {
-        font-size: medium;
-    }
+.card .text {
+  display: block;
+  background-color: white;
+  text-align: center;
+  max-width: 400px;
+}
 
-    .text p {
-        color: gray;
-    }
+.text h2 {
+  font-size: medium;
+}
 
-#plan-box {
-    background-color: hsl(225, 100%, 98%);
-    padding: .25rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-    
+.plan-box {
+  background-color: hsl(225, 100%, 98%);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  color: rgb(85, 84, 84);
+  max-height: 75px;
 }
 
 .music-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .hero {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    max-width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  max-width: 100%;
 }
 
 .content {
-   background-color: white;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   max-width: 60vmin;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60vmin;
 }
-h1 {
-   display: flex;
-   justify-content: center;
-   padding-top: 5%;
+
+.card-body h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .card {
-    background-color: white;
-    border-radius: 20px;
-    max-width: 450px;
-    width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 450px;
+  width: 100%;
 }
 
 .card-body {
-    padding: 3.5rem;
-    text-align: center;
-    border-radius: 10px;
+  padding: 3.5rem;
+  text-align: center;
+  border-radius: 10px;
 }
 
-#buttons {
+.buttons {
+  padding-top: 20px;
+  line-height: 2;
+}
+
+.buttons .proceed {
+  border: none;
+  width: 200px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: large;
+  font-weight: 700;
+}
+
+.buttons .cancel {
+    text-decoration: none;
+}
+
+.buttons .proceed:hover {
+    color: pink;
 }
 
 .attribution {
-    position: absolute;
-    bottom: 0%;
+  position: absolute;
+  bottom: 10%;
+  font-size: small;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap')
-section
+@media (max-width: 768px) {
+  body {
+    min-height: 100vh;
+    min-width: auto;
+  }
+}
 
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
