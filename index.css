@@ -15,12 +15,20 @@ text-align: center;
 padding-left: 5%;
 padding-right: 5%;}
 
-.text {
+ .card .text {
     display: block;
-    width: 60vmin;
     background-color: white;
     text-align: center;
+    max-width: 400px;
 }
+
+    .text h2 {
+        font-size: medium;
+    }
+
+    .text p {
+        color: gray;
+    }
 
 #plan-box {
     background-color: hsl(225, 100%, 98%);
@@ -67,6 +75,7 @@ h1 {
 .card-body {
     padding: 3.5rem;
     text-align: center;
+    border-radius: 10px;
 }
 
 #buttons {
